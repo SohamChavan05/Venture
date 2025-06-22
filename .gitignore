@@ -1,0 +1,44 @@
+# ✅ Node.js & Express (Backend)
+server/node_modules/
+server/.env
+server/logs/
+server/npm-debug.log*
+server/yarn-debug.log*
+server/yarn-error.log*
+server/.DS_Store
+
+# ✅ React App (Frontend)
+client/node_modules/
+client/build/
+client/.env
+client/.DS_Store
+client/npm-debug.log*
+client/yarn-debug.log*
+client/yarn-error.log*
+
+# ✅ Environment & System Files
+.env
+*.env.local
+.env.production
+.env.development
+.DS_Store
+Thumbs.db
+
+# ✅ OS/Editor-specific files
+*.log
+*.swp
+*.swo
+.idea/
+.vscode/
+*.bak
+
+# ✅ Coverage and test outputs
+coverage/
+*.lcov
+*.nyc_output/
+
+# ✅ Optional: TypeScript artifacts
+*.tsbuildinfo
+
+# ✅ Optional: Mac files
+._*
