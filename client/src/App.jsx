@@ -1,14 +1,13 @@
-import Navbar from "./components/Navbar";
+import Home from "./pages/Home";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
-function App() {
+const App = () => {
   return (
     <>
-      <Navbar/>
-      <div className="flex justify-center ">
-        <h1 className="font-bold text-6xl">Home Page</h1>
-      </div>
+      <Home />
+      <ToastContainer position="top-center" autoClose={3000} />
     </>
   );
-}
-
+};
 export default App;
