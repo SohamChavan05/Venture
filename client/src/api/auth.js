@@ -9,3 +9,25 @@ export const loginUser = (email, password) => {
 export const registerUser = (name, email, password) => {
   return axios.post(`${BASE_URL}/register`, { name, email, password });
 };
+
+export const registerStartup = (
+  name,
+  tagline,
+  description,
+  founderName,
+  industry,
+  location,
+  website,
+  pitchDeckLink
+) => {
+  return axios.post(`${BASE_URL}/startupReg`, {
+    name,
+    tagline,
+    description,
+    founderName,
+    industry,
+    location,
+    website,
+    pitchDeckLink,
+  });
+};
